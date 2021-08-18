@@ -10,7 +10,7 @@ Cyber-Cheems 2077 is a "cheat" for the Steam game Cyber-doge 2077: Meme runner. 
 Project I made to learn some stuff. By making this project I learned:
 - Basic CE7.2 usage
 - Basic ReClass usage
-- Basic Ghidra usage
+- Basic IDA Pro usage
 - How to Read & Write Process memory in C++
 
 ## Disclaimer
