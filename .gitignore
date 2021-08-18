@@ -424,3 +424,9 @@ FodyWeavers.xsd
 *.db
 *.db-shm
 *.opendb
+Browse.VC.db
+Browse.VC.db-shm
+Browse.VC.opendb
+*.VC.db
+*.VC.db-shm
+*.VC.opendb
