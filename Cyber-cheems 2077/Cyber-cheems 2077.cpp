@@ -2,6 +2,7 @@
 #include <Windows.h>
 #include <iostream>
 #include <Psapi.h>
+#include <stdlib.h>
 #include "color.hpp"
 
 DWORD cdPID;
@@ -55,6 +56,7 @@ int main( )
 		std::cout << dye::white_on_green( "[SUCCESS]" ) << dye::light_green( " Opened a handle to the process." ) << std::endl;
 		Sleep( 100 );
 		uintptr_t cd2077BaseAddr = GetBaseAddress( pHandle );
+
 		std::cout << dye::white_on_green( "[SUCCESS]" ) << dye::light_green( " Found base address of CD2077: " ) << dye::light_green( cd2077BaseAddr ) << std::endl; // TODO: Change to hex
 		uintptr_t firstAddr;
 		ReadProcessMemory( pHandle, LPCVOID( cd2077BaseAddr + 0x01B3ED10 ), &firstAddr, sizeof( firstAddr ), nullptr );
