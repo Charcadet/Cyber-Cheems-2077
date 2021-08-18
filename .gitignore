@@ -430,3 +430,7 @@ Browse.VC.opendb
 *.VC.db
 *.VC.db-shm
 *.VC.opendb
+*.db
+.vs/Cyber-cheems 2077/v16/Browse.VC.db
+.vs/Cyber-cheems 2077/v16/Browse.VC.db-shm
+.vs/Cyber-cheems 2077/v16/Browse.VC.opendb
